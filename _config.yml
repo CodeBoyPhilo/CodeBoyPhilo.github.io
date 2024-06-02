@@ -1,53 +1,50 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Basic Information
+title: Hao (Philo) Wu
+position: Honours Student
+affiliation: University of Sydney
+email: philo_wu@outlook.com
 
-title: Philo's Personal Site
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome! The is Philo Wu @ University of Sydney. I currently an Honours student of Business Analytics. 
-  My research interests are artificial intelligence, large language models, and graph neural networks!
-url: "https://codeboyphilo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: CodeBoyPhilo
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: philo philowu haowu hao wu
+description: Welcome! I am Philo @ University of Sydney. I am currently an Honours student of Business Analytics. My research interests are graph neural networks, knowledge augmented large language model generations.
+#canonical: https://minimal-light-theme.yliu.me/
 
-# Build settings
-theme: jekyll-theme-minimal
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+# Links
+# If you don't need one of them, you may delete the corresponding line.
+#google_scholar: https://scholar.google.com/
+cv_link: assets/files/HaoWu.pdf
+github_link: https://github.com/CodeBoyPhilo
+linkedin: https://www.linkedin.com/in/philowu9827/
 
+# Images (e.g., your profile picture and your website's favicon)
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
+avatar: ./assets/images/self.jpg
+favicon: ./assets/images/logo.png
+#favicon_dark: ./assets/img/favicon-dark.png
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Footnote
+# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: false
+
+# Auto Dark Mode
+# You may use the option to disable the automatic dark theme
+auto_dark_mode: true
+
+# Font
+# You can use this option to choose between Serif or Sans Serif fonts.
+font: "Serif" # or "Sans Serif"
+
+# Google Analytics ID
+# Please remove this if you don't use Google Analytics
+#google_analytics: UA-111540567-4
+
+# Use this project as a remote theme for GitHub Pages
+# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+remote_theme: yaoyao-liu/minimal-light
+
+# The following files will be removed from the generated website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - minimal-light.gemspec
